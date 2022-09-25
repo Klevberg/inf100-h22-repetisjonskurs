@@ -29,7 +29,7 @@ y = 10      # The variable y is given the value 10
 print(y)    # 10
 
 y = True    # The variable y now refers to the value True
-y = "Hi"    # The variable y now refers to the value "Hei"
+y = "Hi"    # The variable y now refers to the value "Hi"
 y = 3       # The variable y now refers to the value 3
 y = y + 1   # The variable y now refers to the value 4
 print(y)    # 4
