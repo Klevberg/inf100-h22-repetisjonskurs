@@ -50,7 +50,7 @@ print(3 * s) # hahaha
 
 # LIFE HACK: f-strings
 
-# Using an f-string we can insert variables into the string
+# Using an f-string we can insert variables directly into the string
 number_of_students = 683
 course_id = "INF100"
 print(f"There are {number_of_students} students taking the {course_id} course")

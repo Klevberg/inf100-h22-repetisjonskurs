@@ -21,7 +21,7 @@ print(number)
 
 # This code will make the program crash!
 number = input("Give me a positive number: ")
-number = number + 2
+# number = number + 2
 print(number)
 
 # We cannot (put together) / (get the sum of) a string and a number
