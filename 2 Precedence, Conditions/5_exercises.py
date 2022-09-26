@@ -9,6 +9,13 @@ def valid_choice(input):
 print(valid_choice("Paper"))
 
 
+print()
+
+
 # What does the following line of code print, and in what order?
 
-print(print("Rock") or print("Paper") and print("Scissors"))
+def print_one():
+    print(1)
+    return 0
+
+print(print("3") or print_one() and print("2"))
