@@ -54,6 +54,7 @@ print(3 * s) # hahaha
 number_of_students = 683
 course_id = "INF100"
 print(f"There are {number_of_students} students taking the {course_id} course")
+print()
 
 # Without the f, the brackets as well as the variable names will be printed instead
 print("There are {number_of_students} students taking the {course_id} course")

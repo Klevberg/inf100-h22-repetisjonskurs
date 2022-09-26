@@ -21,7 +21,7 @@ print(False and True)   # False
 print(True and False)   # False
 print(True and True)    # True
 print(True and 5)       # 5
-print(0 and "Foo")      # 0
+print(0 and "hi")      # 0
 print(2 and 3)          # 3
 print(False and None)   # False
 

@@ -13,4 +13,4 @@
 
 
 # NOTE: Don't be afraid to make mistakes!
-# It is an essential part of programming. 
+# Making mistakes along the way is an essential part of programming.

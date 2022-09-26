@@ -4,9 +4,9 @@ print(not (False or True))      # False
 
 print()
 
-print(2 < 3 < 4)            # True
-print(not 3 < 2 < 1)        # True
-print(not 3 < 2 and 1 < 2)  # True
+print(2 < 3 < 4)                # True
+print(not 3 < 2 < 1)            # True
+print(not 3 < 2 and 1 < 2)      # True
 
 print()
 

@@ -16,5 +16,17 @@ function_name()
 print("Hello from outside the function")
 
 
-
 # NOTE: The function name should describe its job
+
+
+# This function will print a nice picture of an owl
+
+def owl_surprise():
+    print(' ,  ,\n {o,o} <(coucou)\n./)_)\n  " "')
+
+owl_surprise()
+
+# We can call this function as many times as we want
+# owl_surprise()
+# owl_surprise()
+# owl_surprise()

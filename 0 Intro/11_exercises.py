@@ -4,8 +4,8 @@
 width = input("What is the width of your living room in meters? ")
 length = input("What is the length of your living room in meters? ")
 
-area = width * length
-print("Stuen din er {area} m^2.")
+area = width ** length
+print("Your living room is {area} m^2.")
 
 
 #### 2. Write a program that asks for the user's first name, then their last name.

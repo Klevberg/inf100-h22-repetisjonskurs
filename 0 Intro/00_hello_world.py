@@ -6,7 +6,7 @@ print(5)
 # Print an empty line
 print()
 
-# Print the sum of 4 + 4
+# Print the sum of 3 + 4
 print(3 + 4)
 
 3 + 4 # will do nothing

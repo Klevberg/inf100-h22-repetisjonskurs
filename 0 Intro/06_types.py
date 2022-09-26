@@ -17,10 +17,19 @@ print(type({'key': 'value'}))   # dict
 def my_function():
     return "hello"
 
-print(type(my_function))   # function
-print(type(my_function())) # str
+print(type(my_function))    # function
+print(type(my_function()))  # str
+print(type(print("Hello"))) # NoneType
 
 
+# Let's take a look at how we can solve the problem from earlier
+a = input("Number A: ")
+b = input("Number B: ")
 
+# Variable a and b are strings, so they are put together
+print("The sum is", a + b)
 
-# Show converting string from input to int
+# We convert the strings a and b to type int (integer / whole number)
+a = int(a)
+b = int(b)
+print("The sum is", a + b)
