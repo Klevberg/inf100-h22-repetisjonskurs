@@ -22,6 +22,23 @@ print(type(my_function()))  # str
 print(type(print("Hello"))) # NoneType
 
 
+print()
+
+
+# We can use built in functions to convert between types
+# int(), float(), str()
+
+# For example:
+a = 3
+b = 4.2
+s = "chocolate"
+
+print(float(a))
+print(int(b))
+print(str(b))
+# print(int(s)) # crash!
+
+
 # Let's take a look at how we can solve the problem from earlier
 a = input("Number A: ")
 b = input("Number B: ")

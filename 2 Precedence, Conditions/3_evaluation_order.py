@@ -1,4 +1,4 @@
-# The evaluation order determines in what order expressions are evaluated
+# The evaluation order (evalueringsrekkefølge) determines in what order expressions are evaluated
 
 def one():
     print("one", end=" ")
@@ -18,7 +18,7 @@ print(one() + two() * three()) # one two three 7
 print()
 
 
-# Short-circuit evaluation
+# Short-circuit evaluation (kortslutningsevaluering)
 def yes():
     return True
 
